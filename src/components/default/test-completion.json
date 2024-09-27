@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_default_test_completions",
+  "info": {
+    "displayName": "Test Completion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Functional_testing": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Automated_Testing": {
+      "type": "boolean"
+    },
+    "performance_testing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "default.performance-testing"
+    }
+  }
+}
